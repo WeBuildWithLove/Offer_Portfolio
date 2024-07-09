@@ -6,7 +6,7 @@ const Landing = lazy(() => import("./pages/Landing"));
 const Pricing = lazy(() => import("./pages/Pricing"));
 function App() {
   return (
-    <div className=" bg h-screen">
+    <>
       <BrowserRouter>
         <Suspense fallback={<LoadingOverlay />}>
           <Routes>
@@ -15,7 +15,7 @@ function App() {
           </Routes>
         </Suspense>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

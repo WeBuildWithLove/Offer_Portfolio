@@ -16,6 +16,9 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      CabinetGrotesk: ["cabinetGrotesk", "sans-serif"],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -51,6 +54,11 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        "color-start": "#15BFFD",
+        "color-end": "#1085B0",
+      },
+      backgroundImage: {
+        "custom-gradient": "linear-gradient(to right, #15BFFD, #1085B0)",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -67,6 +75,9 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+      },
+      boxShadow: {
+        "custom-shadow": "0px 4px 4px 0px #00000040",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
