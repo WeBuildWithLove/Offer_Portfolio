@@ -56,6 +56,7 @@ module.exports = {
         },
         "color-start": "#15BFFD",
         "color-end": "#1085B0",
+        "blue-color": "rgba(21, 191, 253, 1)",
       },
       backgroundImage: {
         "custom-gradient": "linear-gradient(to right, #15BFFD, #1085B0)",
