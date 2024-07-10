@@ -2,7 +2,7 @@ import { FC } from "react";
 
 interface TitleProps {
   title: string;
-  className: string;
+  className?: string;
 }
 
 const Content: FC<TitleProps> = ({ title, className }) => {

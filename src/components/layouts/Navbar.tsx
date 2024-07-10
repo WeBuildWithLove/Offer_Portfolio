@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assets/PhotoIcon.svg";
 import { navLinks } from "../../constant/navigation";
-import { Button } from "../ui/button";
+
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "../ui/sheet";
 import { BarChartHorizontal } from "lucide-react";
+import SmallBtn from "../ui/btns/SmallBtn";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center pt-10 p-4 ">
+    <nav className="flex justify-between items-center pt-10 p-4 px-[8%]  ">
       <div className="flex items-center gap-2">
         <img
           src={Logo}
@@ -33,9 +34,7 @@ const Navbar = () => {
             </Link>
           </ul>
         ))}
-        <Button className="w-[190px] h-[52.59px] rounded-full text-[16.96] ">
-          Book Now
-        </Button>
+        <SmallBtn label="Book Now" />
       </div>
       <div className="flex flex-col md:hidden items-center">
         <Sheet>

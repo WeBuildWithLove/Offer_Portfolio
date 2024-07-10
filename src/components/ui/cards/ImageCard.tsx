@@ -1,19 +1,18 @@
-import React, { FC } from "react";
+import { FC } from "react";
 
 interface ImageCardProps {
   src: string;
-  alt: string;
   className?: string;
 }
 
-const ImageCard: FC<ImageCardProps> = ({ src, alt, className }) => {
+const ImageCard: FC<ImageCardProps> = ({ src, className }) => {
   return (
-    <div className={` max-w-[240px] h-[379px]`}>
+    <div className={` max-w-[260px] h-[379px]`}>
       <div className="card-content relative w-full h-full bg-[#0B0F2B] p-3">
         <img
           src={src}
-          alt={alt}
-          className={` h-[70%] w-full object-cover rounded-t-[20px]  ${className}`}
+          alt="Daniel photo"
+          className={` h-[70%] w-full object-cover rounded-[10px]  ${className}`}
         />
         <div className="flex flex-col items-start mt-4 text-white">
           <h4 className="text-xl font-bold">Agba Chef</h4>
