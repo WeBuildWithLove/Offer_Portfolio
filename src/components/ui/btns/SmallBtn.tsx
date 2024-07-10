@@ -7,11 +7,7 @@ interface SmallBtnProps {
 }
 
 const SmallBtn: FC<SmallBtnProps> = ({ label, className }) => {
-  return (
-    <Button className={`w-[190px] py-6 rounded-full text-[16.96] ${className}`}>
-      {label}
-    </Button>
-  );
+  return <Button className={`py-6 rounded-full ${className}`}>{label}</Button>;
 };
 
 export default SmallBtn;

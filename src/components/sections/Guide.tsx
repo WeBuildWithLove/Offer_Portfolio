@@ -9,15 +9,15 @@ import TransparentBtn from "../ui/btns/TransparentBtn";
 const Guide = () => {
   return (
     <section className="max-w-full">
-      <div className=" glass_container justify-evenly flex py-[8rem]">
-        <div className="flex">
+      <div className=" glass_container justify-evenly flex ">
+        <div className="flex py-[100px] mt-6">
           <ReviewCard src={ProfilePhoto} name="John Doe" />
           <div className=" translate-y-[200px] translate-x-[-30px]">
             <ReviewCard src={ProfilePhoto} name="Jane Doe" />
           </div>
         </div>
 
-        <div className="flex flex-col max-w-[612px] gap-6">
+        <div className="flex flex-col max-w-[612px] gap-6 py-[100px] ">
           <MainTitle
             title="To be a thought leader, your voice needs to be heard"
             className="text-4xl font-bold opacity-[1]"

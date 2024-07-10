@@ -1,23 +1,75 @@
-import { showcaseData } from "../../../constant/datamanager";
+import { reviewData, reviewDataTwo } from "../../../constant/datamanager";
 import Content from "../Headers.tsx/Content";
+import MainTitle from "../Headers.tsx/MainTitle";
 
-const RecommendationCard = () => {
+export const RecommendationCard = () => {
   return (
-    <div className="card-content relative h-[354px] p-3 max-w-[322px]">
-      <div className="flex flex-col gap-8  bg-[#0B0F2B] mt-5 w-[262px] ">
-        {showcaseData.map((item, index) => (
-          <div key={index}>
+    <div className="flex gap-7">
+      {reviewData.map((item, index) => (
+        <div key={index} className="card-border p-1">
+          <div className="flex flex-col gap-4 glass_container ">
+            <div className="flex gap-1 mt-5">
+              <img
+                src={item.src}
+                alt="reviewer photo"
+                width={34}
+                height={33}
+                className="rounded-full"
+              />
+              <div className="flex flex-col">
+                <MainTitle
+                  title={item.name}
+                  className="text-[17.17px] font-medium"
+                />
+                <Content
+                  title={item.date}
+                  className="text-[12px] font-normal opacity-[0.4]"
+                />
+              </div>
+            </div>
             <Content
               title={item.description}
-              className="text-sm font-medium leading-[25.76px]"
+              className="max-w-[417px] text-base font-normal text-[#B5B5B5] pb-7 leading-7"
             />
-
-            <img src={item.src} alt="reviewer photo" />
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 };
 
-export default RecommendationCard;
+export const RecommendationCardTwo = () => {
+  return (
+    <div className="flex gap-7">
+      {reviewDataTwo.map((item, index) => (
+        <div key={index} className="card-border p-1">
+          <div className="flex flex-col gap-4 glass_container  ">
+            <div className="flex gap-1 mt-5">
+              <img
+                src={item.src}
+                alt="reviewer photo"
+                width={34}
+                height={33}
+                className="rounded-full"
+              />
+              <div className="flex flex-col">
+                <MainTitle
+                  title={item.name}
+                  className="text-[17.17px] font-medium"
+                />
+                <Content
+                  title={item.date}
+                  className="text-[12px] font-normal opacity-[0.4]"
+                />
+              </div>
+            </div>
+            <Content
+              title={item.description}
+              className="max-w-[417px] text-base font-normal text-[#B5B5B5] pb-7 leading-7"
+            />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
