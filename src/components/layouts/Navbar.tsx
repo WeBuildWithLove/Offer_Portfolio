@@ -34,7 +34,10 @@ const Navbar = () => {
             </Link>
           </ul>
         ))}
-        <SmallBtn label="Book Now" />
+        <SmallBtn
+          label="Book Now"
+          className="w-[190px] text-[16.96px] font-medium"
+        />
       </div>
       <div className="flex flex-col md:hidden items-center">
         <Sheet>
