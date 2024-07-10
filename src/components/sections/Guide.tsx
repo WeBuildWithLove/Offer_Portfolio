@@ -8,8 +8,8 @@ import TransparentBtn from "../ui/btns/TransparentBtn";
 
 const Guide = () => {
   return (
-    <section className="max-w-full px-[2%]  ">
-      <div className=" glass_container justify-evenly flex py-16">
+    <section className="max-w-full">
+      <div className=" glass_container justify-evenly flex py-[8rem]">
         <div className="flex">
           <ReviewCard src={ProfilePhoto} name="John Doe" />
           <div className=" translate-y-[200px] translate-x-[-30px]">
