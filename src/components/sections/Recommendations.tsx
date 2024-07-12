@@ -36,10 +36,16 @@ const Recommendations = () => {
         </Marquee>
       </div>
       <div className="flex flex-col justify-center items-center">
-        <SmallBtn
-          label="View Source"
-          className="w-[295px] text-xl font-medium "
-        />
+        <a
+          href="https://www.linkedin.com/in/danielararomi/details/recommendations/?detailScreenTabIndex=0"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SmallBtn
+            label="View Source"
+            className="w-[295px] text-xl font-medium "
+          />
+        </a>
       </div>
     </section>
   );

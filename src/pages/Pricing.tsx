@@ -1,5 +1,11 @@
+import Price from "../components/sections/Price";
+
 const Pricing = () => {
-  return <main>Pricing</main>;
+  return (
+    <main className=" font-CabinetGrotesk ">
+      <Price />
+    </main>
+  );
 };
 
 export default Pricing;

@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 interface TitleProps {
-  title: string;
+  title?: string;
   className?: string;
 }
 
