@@ -1,7 +1,7 @@
 import Content from "../ui/Headers.tsx/Content";
 import MainTitle from "../ui/Headers.tsx/MainTitle";
 import ProfilePhoto1 from "../../assets/Photo1.svg";
-import ProfilePhoto2 from "../../assets/Photo2.svg";
+// import ProfilePhoto2 from "../../assets/Photo2.svg";
 import ImageCard from "../ui/cards/ImageCard";
 import FullBtn from "../ui/btns/FullBtn";
 import TransparentBtn from "../ui/btns/TransparentBtn";
@@ -24,11 +24,15 @@ const Hero = () => {
         />
         <FullBtn label="Book Free Call Now" />
       </div>
-      <div className="flex items-center  gap-7">
-        <ImageCard src={ProfilePhoto1} className="" />
+      <div className="flex items-center  gap-4">
+        <ImageCard src={ProfilePhoto1} className="" nickname="Agba chef" />
 
-        <div className=" mt-20 rotate-[16.86deg]">
-          <ImageCard src={ProfilePhoto2} className="w-full " />
+        <div className=" mt-20 rotate-[16.86deg] ">
+          <ImageCard
+            src={ProfilePhoto1}
+            className="w-full "
+            nickname="The blue guy"
+          />
         </div>
       </div>
     </section>

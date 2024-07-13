@@ -16,7 +16,7 @@ const PricingCard: FC<PricingCardProps> = ({
 }) => {
   return (
     <div className="flex gap-7">
-      <div className="card-border p-[5px]  ">
+      <div className="card-border p-[5px]   ">
         <div className="flex flex-col gap-4 glass_container items-center">
           <MainTitle title={title} className="text-2xl font-semibold pt-6" />
           <Content

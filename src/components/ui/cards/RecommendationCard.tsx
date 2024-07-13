@@ -6,7 +6,7 @@ export const RecommendationCard = () => {
   return (
     <div className="flex gap-7">
       {reviewData.map((item, index) => (
-        <div key={index} className="card-border p-1">
+        <div key={index} className="card-border p-[6px] rounded-3xl">
           <div className="flex flex-col gap-4 glass_container ">
             <div className="flex gap-1 mt-5">
               <img
@@ -42,7 +42,7 @@ export const RecommendationCardTwo = () => {
   return (
     <div className="flex gap-7">
       {reviewDataTwo.map((item, index) => (
-        <div key={index} className="card-border p-1">
+        <div key={index} className="card-border p-[6px] rounded-3xl">
           <div className="flex flex-col gap-4 glass_container  ">
             <div className="flex gap-1 mt-5">
               <img
