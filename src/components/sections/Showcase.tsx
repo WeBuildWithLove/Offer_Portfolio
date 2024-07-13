@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import FullBtn from "../ui/btns/FullBtn";
 import TransparentBtn from "../ui/btns/TransparentBtn";
 import ShowcaseCard from "../ui/cards/ShowcaseCard";
@@ -27,10 +28,12 @@ const Showcase = () => {
         />
         <div className="flex gap-3">
           <FullBtn label="Book Free Call Now" />
-          <TransparentBtn
-            label="See Price"
-            className="text-white text-lg font-medium border-[#0D7297] w-[208px] py-7 "
-          />
+          <Link to="/pricing">
+            <TransparentBtn
+              label="See Price"
+              className="text-white text-lg font-medium border-[#0D7297] w-[208px] py-7 "
+            />
+          </Link>
         </div>
       </div>
       <div className="">

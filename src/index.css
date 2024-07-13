@@ -78,6 +78,7 @@
       background-color: #0B0F2B; /* Fallback background color */
       background-image: url(./assets/Background.svg);
       background-size: cover;
+      background-repeat: no-repeat;
 
     }
   }

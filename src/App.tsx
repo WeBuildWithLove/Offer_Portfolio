@@ -7,7 +7,7 @@ import AccordionSec from "./components/layouts/AccordionSec";
 import { LazyWithDelay } from "./lib/utils";
 import Pricing from "./pages/Pricing";
 
-const Landing = LazyWithDelay(() => import("./pages/Landing"), 5000); // 1-second delay
+const Landing = LazyWithDelay(() => import("./pages/Landing"), 3000);
 
 function App() {
   return (

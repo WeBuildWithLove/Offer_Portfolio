@@ -16,7 +16,7 @@ const PriceSec = () => {
         <div className="">
           <TransparentBtn
             label=" pricing"
-            className="w-[239px] border-blue-color text-blue-color h-[52px]"
+            className="w-[239px] border-blue-color text-blue-color h-[52px] cursor-default"
           />
           <MainTitle
             title="Thought leader accelerator program"
@@ -28,7 +28,7 @@ const PriceSec = () => {
             <div className="flex-1 ">
               <SmallBtn
                 label="Phase 1"
-                className="w-[235px] z-20 relative top-6"
+                className="w-[235px] z-20 relative top-6 hover:to-color-end/100 "
               />
               <PricingCard
                 title="Understanding your UVP & USP"
@@ -36,7 +36,7 @@ const PriceSec = () => {
                 children={
                   <FullBtn
                     label="Book a call"
-                    className="w-[257px] my-16 mx-auto"
+                    className="w-[257px] my-16 flex flex-col justify-center items-center mx-auto"
                   />
                 }
               />
@@ -45,7 +45,7 @@ const PriceSec = () => {
             <div className="flex-1 flex-grow">
               <SmallBtn
                 label="Phase 3"
-                className="w-[235px] z-20 relative top-6"
+                className="w-[235px] z-20 relative top-6 hover:to-color-end/100"
               />
               <PricingCard
                 className=""
@@ -83,7 +83,7 @@ const PriceSec = () => {
 
                 <FullBtn
                   label="Book a call"
-                  className="w-[257px] my-16 mx-auto"
+                  className="w-[257px] my-16 flex flex-col justify-center items-center mx-auto"
                 />
               </PricingCard>
             </div>
@@ -98,7 +98,7 @@ const PriceSec = () => {
               />
               <SmallBtn
                 label="Phase 2"
-                className="w-[235px] z-20 relative top-6"
+                className="w-[235px] z-20 relative top-6 hover:to-color-end/100"
               />
               <PricingCard
                 title="Power Profile Optimization"
@@ -107,13 +107,13 @@ const PriceSec = () => {
                 <List />
                 <FullBtn
                   label="Book a call"
-                  className="w-[257px] my-16 mx-auto"
+                  className="w-[257px] my-16 flex flex-col justify-center items-center mx-auto"
                 />
               </PricingCard>
             </div>
             <div className="flex-1">
               <PricingCard className="" title="Your Investment">
-                <SpanContent className="px-4 pb-4">
+                <SpanContent className="px-4 pb-6">
                   <p>
                     Starting your journey to Thought Leadership is simple and
                     affordable. The total package costs just

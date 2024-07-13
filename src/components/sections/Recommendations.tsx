@@ -43,7 +43,7 @@ const Recommendations = () => {
         >
           <SmallBtn
             label="View Source"
-            className="w-[295px] text-xl font-medium "
+            className="w-[295px] text-xl font-medium cursor-pointer hover:to-color-end/80"
           />
         </a>
       </div>

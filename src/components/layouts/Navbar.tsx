@@ -36,7 +36,7 @@ const Navbar = () => {
         ))}
         <SmallBtn
           label="Book Now"
-          className="w-[190px] text-[16.96px] font-medium"
+          className="w-[190px] text-[16.96px] font-medium cursor-pointer hover:to-color-end/80"
         />
       </div>
       <div className="flex flex-col md:hidden items-center">

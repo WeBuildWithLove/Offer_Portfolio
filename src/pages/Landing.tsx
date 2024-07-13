@@ -5,7 +5,7 @@ import Showcase from "../components/sections/Showcase";
 
 const Landing = () => {
   return (
-    <main className=" font-CabinetGrotesk ">
+    <main className=" font-CabinetGrotesk">
       <Hero />
       <Guide />
       <Showcase />
