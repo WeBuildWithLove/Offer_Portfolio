@@ -1,10 +1,10 @@
 import Footer from "../components/layouts/Footer";
-import Price from "../components/sections/Price";
+import PriceSec from "../components/sections/PriceSec";
 
 const Pricing = () => {
   return (
     <main className=" font-CabinetGrotesk ">
-      <Price />
+      <PriceSec />
       <div className="pt-6">
         <Footer />
       </div>

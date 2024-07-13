@@ -9,7 +9,7 @@ import ArrowUp from "../../assets/ArrowUp.svg";
 import FullBtn from "../ui/btns/FullBtn";
 import SpanContent from "../ui/Headers.tsx/SpanContent";
 
-const Price = () => {
+const PriceSec = () => {
   return (
     <section className="max-w-full flex py-[8rem] ">
       <div className="flex flex-col gap-10 text-center items-center justify-center mx-auto">
@@ -162,4 +162,4 @@ const Price = () => {
   );
 };
 
-export default Price;
+export default PriceSec;
