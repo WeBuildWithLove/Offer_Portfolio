@@ -12,8 +12,8 @@ export const RecommendationCard = () => {
               <img
                 src={item.src}
                 alt="reviewer photo"
-                width={34}
-                height={33}
+                width={50}
+                height={50}
                 className="rounded-full"
               />
               <div className="flex flex-col">
@@ -48,8 +48,8 @@ export const RecommendationCardTwo = () => {
               <img
                 src={item.src}
                 alt="reviewer photo"
-                width={34}
-                height={33}
+                width={50}
+                height={50}
                 className="rounded-full"
               />
               <div className="flex flex-col">

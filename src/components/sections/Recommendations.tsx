@@ -9,7 +9,7 @@ import Marquee from "react-fast-marquee";
 
 const Recommendations = () => {
   return (
-    <section className="max-w-full ">
+    <section className="max-w-full mt-10 ">
       <div className="flex flex-col gap-5 text-center items-center justify-center mx-auto">
         <MainTitle
           title="Client Review"
