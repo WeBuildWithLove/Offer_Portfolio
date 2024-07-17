@@ -13,12 +13,12 @@ const Recommendations = () => {
       <div className="flex flex-col gap-5 text-center items-center justify-center mx-auto">
         <MainTitle
           title="Client Review"
-          className=" text-[45px] font-semibold"
+          className=" lg:text-[45px] text-[30px] font-semibold"
         />
 
         <Content
           title="See what others are saying"
-          className="text-lg font-normal"
+          className="lg:text-lg text-sm font-normal"
         />
       </div>
       <div className="flex gap-7 flex-col my-16">

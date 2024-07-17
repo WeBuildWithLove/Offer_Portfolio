@@ -3,7 +3,7 @@ import { showcaseData } from "../../../constant/datamanager";
 
 const ShowcaseCard = () => {
   return (
-    <div className="flex justify-center scale-90 my-6">
+    <div className="flex justify-center lg:scale-90 md:scale-95 my-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-full h-auto">
         {showcaseData.slice(0, 6).map((item, index) => (
           <div
@@ -14,7 +14,7 @@ const ShowcaseCard = () => {
               <img
                 src={item.src}
                 alt="Banner image showcase"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
               />
               <Content
                 title={item.description}

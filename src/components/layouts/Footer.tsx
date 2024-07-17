@@ -5,10 +5,10 @@ import MainTitle from "../ui/Headers.tsx/MainTitle";
 const Footer = () => {
   return (
     <footer className="max-w-full px-[5%] pb-[8rem]">
-      <div className="flex flex-col gap-8 text-center items-center justify-center mx-auto">
+      <div className="flex flex-col gap-8 text-center items-center justify-center mx-auto  max-w-[650px]">
         <MainTitle
           title="Ready to grow your personal brand?"
-          className="text-[45px] leading-[64px] font-semibold"
+          className="lg:text-[45px] lg:leading-[64px]  leading-[44px] font-semibold text-[30px] text-center"
         />
         <FullBtn label="Book Free Call Now" />
         <div className="flex gap-8">

@@ -8,8 +8,8 @@ import TransparentBtn from "../ui/btns/TransparentBtn";
 
 const Hero = () => {
   return (
-    <section className="max-w-full py-[8rem] px-[8%] ">
-      <div className="flex justify-center gap-2 items-center">
+    <section className="max-w-full md:py-[8rem] py-8 lg:px-[8%] px-[4%] ">
+      <div className="flex justify-center items-center md:flex-nowrap flex-wrap gap-8 lg:gap-2">
         <div className="flex flex-col max-w-[660px] gap-8">
           <TransparentBtn
             label=" Go from expert to thought leader"
@@ -17,10 +17,10 @@ const Hero = () => {
           />
           <MainTitle
             title="Become a trusted and recognized thought leader"
-            className=" opacity-[1] font-bold text-[45px] leading-[55.8px] "
+            className=" opacity-[1] font-bold text-[30px] lg:text-[45px] lg:leading-[55.8px] leading-[37.2px] "
           />
           <Content
-            className=" font-normal text-xl leading-6 opacity-[0.8]  max-w-[500px]"
+            className=" font-normal text-sm lg:text-xl leading-[17.39px] lg:leading-6 opacity-[0.8]  max-w-[500px]"
             title="Together we can craft a long-term thought leadership strategy on content creation and branding."
           />
           <FullBtn label="Book Free Call Now" className="" />

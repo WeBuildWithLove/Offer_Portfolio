@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assets/PhotoIcon.svg";
+import Menu from "../../assets/Menu.svg";
 import { navLinks } from "../../constant/navigation";
-
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "../ui/sheet";
-import { BarChartHorizontal } from "lucide-react";
 import SmallBtn from "../ui/btns/SmallBtn";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center pt-10 p-4 px-[8%]  ">
+    <nav className="flex justify-between items-center pt-10 p-4 px-[8%]">
       <div className="flex items-center gap-2">
         <img
           src={Logo}
@@ -19,8 +18,8 @@ const Navbar = () => {
         />
 
         <div>
-          <h5 className="text-xl font-bold">Daniel Araromi</h5>
-          <h6 className="text-[11.93px] font-medium opacity-[0.7]">
+          <h5 className=" text-sm lg:text-xl font-bold">Daniel Araromi</h5>
+          <h6 className=" text-[10px] lg:text-[11.93px] font-medium opacity-[0.7]">
             The blue guy
           </h6>
         </div>
@@ -42,9 +41,11 @@ const Navbar = () => {
       <div className="flex flex-col md:hidden items-center">
         <Sheet>
           <SheetTrigger>
-            <BarChartHorizontal
-              size={18}
-              strokeWidth={2}
+            <img
+              src={Menu}
+              alt="menu bar"
+              width={24}
+              height={24}
               className=" cursor-pointer"
             />
           </SheetTrigger>

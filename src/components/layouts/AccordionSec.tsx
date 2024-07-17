@@ -9,9 +9,12 @@ import MainTitle from "../ui/Headers.tsx/MainTitle";
 
 const AccordionSec = () => {
   return (
-    <section className="max-w-full px-[5%] py-[12rem]">
+    <section className="max-w-full px-[5%] lg:py-[12rem] py-[8rem]">
       <div className="flex flex-col gap-5 text-center ">
-        <MainTitle title="FAQ" className="text-[45px] font-medium" />
+        <MainTitle
+          title="FAQ"
+          className=" text-[30px] lg:text-[45px] font-medium"
+        />
         <Accordion
           type="single"
           collapsible
@@ -23,11 +26,11 @@ const AccordionSec = () => {
               key={item.id}
               className="p-5 glass_container  "
             >
-              <AccordionTrigger className="text-xl font-medium px-3 ">
+              <AccordionTrigger className="lg:text-xl text-sm font-medium px-3 leading-[30px]  text-left">
                 {item.question}
               </AccordionTrigger>
-              <AccordionContent className="text-[17px] font-normal leading-10 opacity-[0.7] text-left px-3">
-                {item.answer}
+              <AccordionContent className=" text-[14px] lg:text-[17px] font-normal lg:leading-10 leading-[21px]  opacity-[0.7] text-left px-3">
+                {item.answer} lead
               </AccordionContent>
             </AccordionItem>
           ))}
