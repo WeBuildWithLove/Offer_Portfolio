@@ -1,10 +1,12 @@
 import Content from "../ui/Headers.tsx/Content";
 import MainTitle from "../ui/Headers.tsx/MainTitle";
-import ProfilePhoto from "../../assets/PhotoIcon.svg";
+
 import ReviewCard from "../ui/cards/ReviewCard";
 import FullBtn from "../ui/btns/FullBtn";
 import TransparentBtn from "../ui/btns/TransparentBtn";
 import { Link } from "react-router-dom";
+import ProfilePhoto2 from "../../assets/Profile10.png";
+import ProfilePhoto1 from "../../assets/Profile9.png";
 
 const Guide = () => {
   return (
@@ -12,10 +14,20 @@ const Guide = () => {
       <div className="lg:flex-nowrap flex-wrap items-center flex justify-center gap-2">
         <div className="flex max-w-[531px] lg:mb-0 mb-[15rem]">
           <div>
-            <ReviewCard src={ProfilePhoto} name="John Doe" />
+            <ReviewCard
+              src={ProfilePhoto1}
+              name="Laura"
+              title1="Daniel helped freshen up my LinkedIn banner and now I feel it breathes and is more impactful."
+              title2="He literally had it wrapped up after the 3rd revision! I would recommend Daniel’s graphic service"
+            />
           </div>
           <div className="relative translate-y-[200px] translate-x-[-70px]">
-            <ReviewCard src={ProfilePhoto} name="Jane Doe" />
+            <ReviewCard
+              src={ProfilePhoto2}
+              name="Patrick Olumba"
+              title1="I highly recommend Daniel for graphic design. He's an excellent designer who created my flyers and banner."
+              title2="is professionalism makes collaborating with him a seamless and enjoyable experience."
+            />
           </div>
         </div>
 
