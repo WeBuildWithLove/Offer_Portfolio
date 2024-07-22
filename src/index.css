@@ -81,6 +81,7 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
       
+      
       margin: 0; /* Ensure no default margin */
     }
   }
@@ -147,44 +148,6 @@
   
   
 
-  /* .bg{
-    background-image: url(./assets/Background.svg);
-    background-size: cover;
-  } */
-
-  /* .loader {
-    width: 64px;
-    height: 64px;
-    position: relative;
-    background-image:
-      linear-gradient(#FFF 16px, transparent 0) ,
-      linear-gradient(#6D7C43 16px, transparent 0) ,
-      linear-gradient(#6D7C43 16px, transparent 0) ,
-      linear-gradient(#FFF 16px, transparent 0);
-    background-repeat: no-repeat;
-    background-size: 16px 16px;
-    background-position: left top , left bottom , right top , right bottom;
-    animation: rotate 1s linear infinite;
-  }
-  @keyframes rotate {
-    0% {
-      width: 64px;
-      height: 64px;
-      transform: rotate(0deg)
-    }
-    50% {
-      width: 30px;
-      height: 30px;
-      transform: rotate(180deg)
-    }
-    100% {
-      width: 64px;
-      height: 64px;
-      transform: rotate(360deg)
-    }
-
-
-  } */
 
   .loader {
     width: 106px;
@@ -229,5 +192,61 @@
       transform: rotate(360deg);
     }
   } 
+
+    /* Style for WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0F2B; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #15BFFD; 
+  border-radius: 6px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #15BFFDEE;; 
+}
+
+/* Style for Firefox */
+html {
+  scrollbar-width: thin; /* 'auto' or 'thin' */
+  scrollbar-color: #15BFFD #0B0F2B; /* thumb color and track color */
+}
+
+/* Style for IE, Edge, and other browsers supporting CSS pseudo-elements */
+body {
+  -ms-overflow-style: none; /* Hide default scrollbar in IE and Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Hide default scrollbar in Safari and Chrome */
+}
+
+/* Universal scrollbar styling */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #15BFFD #0B0F2B;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #0B0F2B;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #15BFFD;
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #15BFFDEE;
+}
   
 
