@@ -12,7 +12,14 @@ const Footer = () => {
         />
         <FullBtn label="Book Free Call Now" />
         <div className="flex gap-8">
-          <Linkedin size={28.4} />
+          {" "}
+          <a
+            href="https://www.linkedin.com/in/danielararomiprofileoptimizer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Linkedin size={28.4} />
+          </a>
           <Instagram size={28.4} />
           <Facebook size={28.4} />
         </div>

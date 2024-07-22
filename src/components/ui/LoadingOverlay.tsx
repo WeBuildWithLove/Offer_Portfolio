@@ -6,7 +6,7 @@ const LoadingOverlay = () => {
       <div className="flex flex-col ">
         <div className="loader"></div>
         <div className="pt-10">
-          <p className="text-2xl">
+          <p className="md:text-2xl text-lg text-center px-[2%]">
             Welcome, lets go begin your journey as a thought leader
           </p>
         </div>

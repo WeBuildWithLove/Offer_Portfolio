@@ -1,10 +1,10 @@
 export const navLinks = [
   {
-    name: "home",
+    name: "Home",
     href: "/",
   },
   {
-    name: "price",
+    name: "Pricing",
     href: "/pricing",
   },
 ];

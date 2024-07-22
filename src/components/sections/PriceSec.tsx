@@ -11,24 +11,25 @@ import SpanContent from "../ui/Headers.tsx/SpanContent";
 
 const PriceSec = () => {
   return (
-    <section className="max-w-full flex py-[8rem] ">
+    <section className="max-w-full flex md:py-[8rem] py-[4rem] lg:px-[8%] px-[4%]">
       <div className="flex flex-col gap-10 text-center items-center justify-center mx-auto">
         <div className="">
           <TransparentBtn
             label=" pricing"
             className="w-[239px] border-blue-color text-blue-color h-[52px] cursor-default"
           />
+
           <MainTitle
-            title="Thought leader accelerator program"
-            className=" text-[45px] font-semibold py-2"
+            title="The Thought Leader Accelerator™ makes this dream a reality through a proven 3-phase system:"
+            className=" text-[25px] leading-[31px] lg:leading-normal lg:text-[45px] font-semibold py-5 lg:py-2 "
           />
         </div>
-        <div className=" flex gap-3 mt-5">
+        <div className=" flex gap-3 mt-5 flex-wrap items-center justify-center md:flex-nowrap">
           <div className="flex flex-col w-full">
             <div className="flex-1 ">
               <SmallBtn
                 label="Phase 1"
-                className="w-[235px] z-20 relative top-6 hover:to-color-end/100 "
+                className="z-20 relative top-6 hover:to-color-end/100 "
               />
               <PricingCard
                 title="Understanding your UVP & USP"
@@ -36,7 +37,7 @@ const PriceSec = () => {
                 children={
                   <FullBtn
                     label="Book a call"
-                    className="w-[257px] my-16 flex flex-col justify-center items-center mx-auto"
+                    className="lg:my-14 my-8 flex flex-col justify-center items-center mx-auto"
                   />
                 }
               />
@@ -45,7 +46,7 @@ const PriceSec = () => {
             <div className="flex-1 flex-grow">
               <SmallBtn
                 label="Phase 3"
-                className="w-[235px] z-20 relative top-6 hover:to-color-end/100"
+                className="z-20 relative top-6 hover:to-color-end/100"
               />
               <PricingCard
                 className=""
@@ -83,7 +84,7 @@ const PriceSec = () => {
 
                 <FullBtn
                   label="Book a call"
-                  className="w-[257px] my-16 flex flex-col justify-center items-center mx-auto"
+                  className="w-[257px] lg:my-14 my-8 flex flex-col justify-center items-center mx-auto"
                 />
               </PricingCard>
             </div>
@@ -95,6 +96,7 @@ const PriceSec = () => {
                 alt="image of an arrow"
                 width={94}
                 height={113}
+                className="hidden md:block"
               />
               <SmallBtn
                 label="Phase 2"
@@ -102,12 +104,12 @@ const PriceSec = () => {
               />
               <PricingCard
                 title="Power Profile Optimization"
-                subtitle="With your UVP and USP in hand, we'll transform your profile into a client magnet."
+                subtitle="With your UVP and USP in hand, we'll transform your profile into a client magnet. We will:"
               >
                 <List />
                 <FullBtn
                   label="Book a call"
-                  className="w-[257px] my-16 flex flex-col justify-center items-center mx-auto"
+                  className="w-[257px] lg:my-8 my-6  flex flex-col justify-center items-center mx-auto"
                 />
               </PricingCard>
             </div>
@@ -153,7 +155,7 @@ const PriceSec = () => {
         <img
           src={ArrowUp}
           alt="image of an arrow"
-          className=" "
+          className="hidden md:block"
           width={94}
           height={113}
         />

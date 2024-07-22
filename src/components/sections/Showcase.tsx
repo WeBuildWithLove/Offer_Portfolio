@@ -15,16 +15,16 @@ const Showcase = () => {
         />
         <div className="lg:text-lg font-normal text-sm lg:leading-6 leading-[22.33px] flex flex-col gap-7">
           <Content
-            title="Say a friend invited you for an event, convinced you to come if not for anything but for a keynote speaker that was invited."
+            title="Imagine your profile becomes a client magnet, radiating your authority and showcasing the life-changing transformations you deliver. Imagine you captivate your audience with compelling content that speaks directly to their deepest challenges and desires. "
             className=""
           />
           <Content
-            title="He said so much about this speaker that you were hyped up and ready to meet him, on the D-Day you saw the keynote speaker but he wasn't properly dressed, he didn't even look attractive, what comes to your mind first after this? he isn't worth the hype."
+            title="Imagine dream clients reach out to you, ready to invest in your premium services because they see you as the go-to expert in your niche.."
             className=""
           />
           <Content
-            title="He might have great and impactful words but the first impression matters. You might have great contents, if you don't brand right your audience won't give you the respect you deserve as a thought leader."
-            className=""
+            title="The Thought Leader Accelerator™ is your fast-track to achieving exactly that."
+            className=" font-bold lg:text-2xl text-xl"
           />
         </div>
         <div className="flex lg:gap-3 gap-1 scale-75 md:scale-100">

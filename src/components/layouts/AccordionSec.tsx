@@ -9,7 +9,7 @@ import MainTitle from "../ui/Headers.tsx/MainTitle";
 
 const AccordionSec = () => {
   return (
-    <section className="max-w-full px-[5%] lg:py-[12rem] py-[8rem]">
+    <section className="max-w-full px-[5%] lg:py-[12rem] py-[6rem]">
       <div className="flex flex-col gap-5 text-center ">
         <MainTitle
           title="FAQ"

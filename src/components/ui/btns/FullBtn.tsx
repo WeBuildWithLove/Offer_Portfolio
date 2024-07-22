@@ -16,7 +16,7 @@ const FullBtn: FC<FullBtnProps> = ({ label, className }) => {
         rel="noopener noreferrer"
       >
         <Button
-          className={`md:w-[295px] w-[213.7px] py-7  rounded-full lg:text-xl text-[14.49px] font-normal ${className}`}
+          className={`md:w-[295px] w-[213.7px]  rounded-full lg:text-xl text-[14.49px] font-normal ${className}`}
         >
           <span className="flex gap-2 items-center ">
             {label} <CalendarCheck size={22} />

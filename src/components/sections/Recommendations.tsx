@@ -35,18 +35,18 @@ const Recommendations = () => {
           <RecommendationCardTwo />
         </Marquee>
       </div>
-      <div className="flex flex-col justify-center items-center">
-        <a
-          href="https://www.linkedin.com/in/danielararomi/details/recommendations/?detailScreenTabIndex=0"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <SmallBtn
-            label="View Source"
-            className="w-[295px] text-xl font-medium cursor-pointer hover:to-color-end/80"
-          />
-        </a>
-      </div>
+
+      <a
+        href="https://www.linkedin.com/in/danielararomi/details/recommendations/?detailScreenTabIndex=0"
+        target="_blank"
+        rel="noopener noreferrer"
+        className=" flex flex-col justify-center items-center"
+      >
+        <SmallBtn
+          label="View Source"
+          className="text-xl font-medium cursor-pointer hover:to-color-end/80 "
+        />
+      </a>
     </section>
   );
 };
