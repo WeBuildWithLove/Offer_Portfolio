@@ -50,7 +50,7 @@ const Guide = () => {
             />
           </div>
           <div className="flex gap-3 lg:mt-16 mt-4 justify-center items-center scale-75 md:scale-100">
-            <FullBtn label="Book Free Call Now" />
+            <FullBtn label="Book a Free Call Now" />
             <Link to="/pricing">
               <TransparentBtn
                 label="See Price"

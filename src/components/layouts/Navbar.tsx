@@ -86,7 +86,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FullBtn label="Book Free Call Now" className="" />
+                <FullBtn label="Book a Free Call Now" className="" />
               </a>
             </div>
           </SheetContent>

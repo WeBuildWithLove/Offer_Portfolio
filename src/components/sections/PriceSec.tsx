@@ -212,7 +212,7 @@ const PriceSec: React.FC = () => {
                   </ul>
                 </SpanContent>
                 <FullBtn
-                  label="Book a call"
+                  label="Book a Free Call"
                   className="w-[257px] my-4 flex flex-col justify-center items-center mx-auto"
                 />
               </PricingCard>

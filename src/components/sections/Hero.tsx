@@ -23,7 +23,7 @@ const Hero = () => {
             className=" font-normal text-sm lg:text-xl leading-[20.39px] lg:leading-8 opacity-[0.8]  max-w-[500px]"
             title="Together we can craft a long-term bespoke thought leadership positioning strategy so you attract premium client."
           />
-          <FullBtn label="Book Free Call Now" className="" />
+          <FullBtn label="Book a Free Call Now" className="" />
         </div>
         <div className="flex items-center gap-4 ">
           <ImageCard src={ProfilePhoto1} className="" nickname="Agba chef" />

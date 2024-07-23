@@ -8,7 +8,7 @@ const ShowcaseCard = () => {
         {showcaseData.slice(0, 6).map((item, index) => (
           <div
             key={index}
-            className="p-1 card-border md:col-span-1 flex flex-col justify-center items-center mx-auto rounded-xl"
+            className="p-[3px] card-border md:col-span-1 flex flex-col justify-center items-center mx-auto rounded-xl"
           >
             <div className="flex flex-col gap-2 glass_container w-full h-full">
               <img
