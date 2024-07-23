@@ -34,9 +34,9 @@ const Guide = () => {
             title="To be a thought leader, your voice needs to be heard"
             className="text-[28.88px] lg:text-4xl font-bold leading-[35.81px] lg:[44.64px]"
           />
-          <div className="lg:text-[18px] font-normal flex flex-col gap-10 lg:leading-6 leading-[19.25px] text-[14.44px] opacity-1">
+          <div className="lg:text-[18px] font-normal flex flex-col gap-8 lg:leading-6 leading-[19.25px] text-[14.44px] opacity-1">
             <Content
-              title="Does writing about what you know feels very fulfilling but a bit demotivating to have close to no comments, likes, shares or the like even though you share to multiple groups on LinkedIn?"
+              title="Do you spend hours crafting insightful content on LinkedIn, only to be met with crickets? Does your profile blend in with the endless stream of posts, leaving your ideal clients oblivious to the valuable expertise you offer? "
               className=""
             />
             <Content

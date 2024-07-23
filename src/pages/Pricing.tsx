@@ -3,7 +3,7 @@ import PriceSec from "../components/sections/PriceSec";
 
 const Pricing = () => {
   return (
-    <main className=" font-CabinetGrotesk ">
+    <main className=" font-Poppins">
       <PriceSec />
       <div className="pt-6">
         <Footer />
