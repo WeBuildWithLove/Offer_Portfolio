@@ -17,7 +17,6 @@ module.exports = {
       },
     },
     fontFamily: {
-      CabinetGrotesk: ["cabinetGrotesk", "sans-serif"],
       Poppins: ["poppins", "sans-serif"],
     },
     extend: {

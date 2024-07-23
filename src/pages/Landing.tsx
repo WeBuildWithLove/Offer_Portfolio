@@ -6,7 +6,7 @@ import Showcase from "../components/sections/Showcase";
 
 const Landing = () => {
   return (
-    <main className=" font-Poppins overflow-hidden">
+    <main className=" font-Poppins overflow-y-hidden">
       <Hero />
       <Guide />
       <Showcase />

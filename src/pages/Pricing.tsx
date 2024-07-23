@@ -3,7 +3,7 @@ import PriceSec from "../components/sections/PriceSec";
 
 const Pricing = () => {
   return (
-    <main className=" font-Poppins">
+    <main className=" font-Poppins overflow-clip">
       <PriceSec />
       <div className=" translate-y-[-80px]">
         <AccordionSec />
