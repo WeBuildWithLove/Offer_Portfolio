@@ -16,6 +16,7 @@ interface PhaseContentProps {
   phase: string;
   title: string;
   subtitle: string;
+  className?: string;
   children?: React.ReactNode;
 }
 
@@ -24,13 +25,18 @@ const PhaseContent: React.FC<PhaseContentProps> = ({
   title,
   subtitle,
   children,
+  className,
 }) => (
   <div className="flex-1">
     <SmallBtn
       label={phase}
       className="z-20 relative top-6 hover:to-color-end/100"
     />
-    <PricingCard title={title} subtitle={subtitle}>
+    <PricingCard
+      title={title}
+      subtitle={subtitle}
+      className={`${className} max-w-[507px] md:text-lg text-[13px]`}
+    >
       {children}
     </PricingCard>
   </div>
@@ -38,7 +44,7 @@ const PhaseContent: React.FC<PhaseContentProps> = ({
 
 const PriceSec: React.FC = () => {
   return (
-    <section className="max-w-full flex md:py-[6rem] py-[4rem] lg:px-[8%] px-[4%]">
+    <section className="max-w-full  md:py-[6rem] py-[4rem] lg:px-[8%] px-[4%]">
       <div className="flex flex-col gap-10 text-center items-center justify-center mx-auto">
         <div>
           <TransparentBtn
@@ -55,16 +61,17 @@ const PriceSec: React.FC = () => {
           />
         </div>
         <div className="flex gap-3 mt-5 flex-wrap items-center justify-center md:flex-nowrap">
-          <div className="flex flex-col w-full">
+          <div className="flex flex-col w-full ">
             <PhaseContent
               phase="Phase 1"
               title="Understanding your UVP & USP"
               subtitle="This core phase is crucial. We'll help you identify your unique value proposition (UVP), what makes you different and irreplaceable, and craft a compelling unique selling proposition (USP) that resonates with your ideal clients."
+              className="pb-16"
             >
-              <FullBtn
+              {/* <FullBtn
                 label="Book a call"
                 className="lg:my-14 my-8 flex flex-col justify-center items-center mx-auto"
-              />
+              /> */}
             </PhaseContent>
 
             <div className="md:block flex-1 flex-grow hidden">
@@ -72,6 +79,7 @@ const PriceSec: React.FC = () => {
                 phase="Phase 3"
                 title="Content Strategy Mastery"
                 subtitle="It's not just about what you say, it's about how you say it. The Thought Leader Accelerator helps you develop a personalized content strategy based on your unique positioning and stories."
+                className="pb-[100px]"
               >
                 <SpanContent className="px-4">
                   <p className="text-[19px] font-semibold py-2">
@@ -100,10 +108,10 @@ const PriceSec: React.FC = () => {
                     thought leader.
                   </p>
                 </SpanContent>
-                <FullBtn
+                {/* <FullBtn
                   label="Book a call"
                   className="w-[257px] lg:my-14 my-8 flex flex-col justify-center items-center mx-auto"
-                />
+                /> */}
               </PhaseContent>
             </div>
           </div>
@@ -114,27 +122,29 @@ const PriceSec: React.FC = () => {
                 src={ArrowDown}
                 alt="image of an arrow"
                 width={94}
-                height={113}
-                className="hidden md:block"
+                height={94}
+                className="hidden lg:block translate-y-7"
               />
+
               <PhaseContent
                 phase="Phase 2"
                 title="Power Profile Optimization"
                 subtitle="With your UVP and USP in hand, we'll transform your profile into a client magnet. We will:"
               >
                 <List />
-                <FullBtn
+                {/* <FullBtn
                   label="Book a call"
                   className="w-[257px] lg:my-8 my-6 flex flex-col justify-center items-center mx-auto"
-                />
+                /> */}
               </PhaseContent>
             </div>
 
-            <div className="md:hidden flex-1 flex-grow block">
+            <div className="md:hidden flex-1 flex-grow block ">
               <PhaseContent
                 phase="Phase 3"
                 title="Content Strategy Mastery"
                 subtitle="It's not just about what you say, it's about how you say it. The Thought Leader Accelerator helps you develop a personalized content strategy based on your unique positioning and stories."
+                className="pb-16"
               >
                 <SpanContent className="px-4">
                   <p className="text-[19px] font-semibold py-2">
@@ -163,14 +173,10 @@ const PriceSec: React.FC = () => {
                     thought leader.
                   </p>
                 </SpanContent>
-                <FullBtn
-                  label="Book a call"
-                  className="w-[257px] lg:my-14 my-8 flex flex-col justify-center items-center mx-auto"
-                />
               </PhaseContent>
             </div>
 
-            <div className="flex-1">
+            <div className="flex-1 md:mt-0 mt-16">
               <PricingCard title="Your Investment">
                 <SpanContent className="px-4 pb-6">
                   <p>
@@ -205,6 +211,10 @@ const PriceSec: React.FC = () => {
                     </ul>
                   </ul>
                 </SpanContent>
+                <FullBtn
+                  label="Book a call"
+                  className="w-[257px] my-4 flex flex-col justify-center items-center mx-auto"
+                />
               </PricingCard>
             </div>
           </div>

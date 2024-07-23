@@ -1,3 +1,4 @@
+import AccordionSec from "../components/layouts/AccordionSec";
 import Guide from "../components/sections/Guide";
 import Hero from "../components/sections/Hero";
 import Recommendations from "../components/sections/Recommendations";
@@ -10,6 +11,7 @@ const Landing = () => {
       <Guide />
       <Showcase />
       <Recommendations />
+      <AccordionSec />
     </main>
   );
 };

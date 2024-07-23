@@ -9,7 +9,7 @@ interface SmallBtnProps {
 const SmallBtn: FC<SmallBtnProps> = ({ label, className }) => {
   return (
     <Button
-      className={`py-6 rounded-full cursor-default ${className} w-full max-w-[235px]   `}
+      className={`py-6 rounded-full cursor-default ${className} w-full max-w-[235px] scale-75 md:scale-100  `}
     >
       {label}
     </Button>

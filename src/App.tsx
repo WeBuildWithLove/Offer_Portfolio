@@ -3,7 +3,6 @@ import { Suspense } from "react";
 import LoadingOverlay from "./components/ui/LoadingOverlay";
 import Footer from "./components/layouts/Footer";
 import Navbar from "./components/layouts/Navbar";
-import AccordionSec from "./components/layouts/AccordionSec";
 import { LazyWithDelay } from "./lib/utils";
 import Pricing from "./pages/Pricing";
 
@@ -18,7 +17,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/pricing" element={<Pricing />} />
         </Routes>
-        <AccordionSec />
+        {/* <AccordionSec /> */}
         <Footer />
       </Suspense>
     </BrowserRouter>

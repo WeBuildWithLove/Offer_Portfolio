@@ -9,9 +9,9 @@ const Showcase = () => {
       <div className="flex flex-col gap-7 text-center max-w-[1150px] items-center justify-center mx-auto mt-6 lg:mt-0">
         <MainTitle
           title="To become a thought leader faster, you need to look like one."
-          className=" lg:text-4xl text-3xl leading-[37.2px] font-bold"
+          className=" lg:text-3xl text-[28.88px] leading-[35.81px] lg:[50.64px] font-bold"
         />
-        <div className="lg:text-lg font-normal text-sm lg:leading-6 leading-[22.33px] flex flex-col gap-7 justify-center">
+        <div className="lg:text-lg font-normal text-[14.44px]  lg:leading-8 leading-[24.25px] flex flex-col gap-7 justify-center">
           <Content
             title="Imagine your profile becomes a client magnet, radiating your authority and showcasing the life-changing transformations you deliver. Imagine you captivate your audience with compelling content that speaks directly to their deepest challenges and desires. Imagine dream clients reach out to you, ready to invest in your premium services because they see you as the go-to expert in your niche."
             className=""
@@ -22,7 +22,7 @@ const Showcase = () => {
           /> */}
           <Content
             title="The Thought Leader Accelerator™ is your fast-track to achieving exactly that."
-            className=" font-bold lg:text-2xl text-xl"
+            className=" font-bold "
           />
         </div>
         {/* <div className="flex lg:gap-3 gap-1 scale-75 md:scale-100">

@@ -42,10 +42,17 @@ const Navbar = () => {
             </Link>
           </ul>
         ))}
+        {/* <a
+          href="https://calendly.com/hisexcellencynaija/thoughtleaderacc"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" flex flex-col justify-center items-center"
+        > */}
         <SmallBtn
           label="Book Now"
           className="text-[16.96px] font-medium cursor-pointer hover:to-color-end/80 w-[150px]"
         />
+        {/* </a> */}
       </div>
       <div className="flex lg:hidden items-center justify-center">
         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>

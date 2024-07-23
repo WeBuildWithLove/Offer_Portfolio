@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Instagram, Linkedin, Mail, PhoneCall } from "lucide-react";
 import FullBtn from "../ui/btns/FullBtn";
 import MainTitle from "../ui/Headers.tsx/MainTitle";
 
@@ -27,7 +27,12 @@ const Footer = () => {
           >
             <Instagram size={28.4} />
           </a>
-          <Facebook size={28.4} />
+          <a href={`mailto:dararomi10@gmail.com`}>
+            <Mail size={28.4} />
+          </a>
+          <a href="tel:+2348113211512">
+            <PhoneCall size={28.4} />
+          </a>
         </div>
       </div>
     </footer>

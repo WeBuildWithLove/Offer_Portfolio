@@ -1,12 +1,12 @@
-import Footer from "../components/layouts/Footer";
+import AccordionSec from "../components/layouts/AccordionSec";
 import PriceSec from "../components/sections/PriceSec";
 
 const Pricing = () => {
   return (
     <main className=" font-Poppins">
       <PriceSec />
-      <div className="pt-6">
-        <Footer />
+      <div className=" translate-y-[-80px]">
+        <AccordionSec />
       </div>
     </main>
   );

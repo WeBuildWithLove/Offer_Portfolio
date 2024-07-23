@@ -11,8 +11,8 @@ import ProfilePhoto1 from "../../assets/Profile9.png";
 const Guide = () => {
   return (
     <section className="max-w-full glass_container">
-      <div className="lg:flex-nowrap flex-wrap  flex justify-center  px-[4%]  md:py-[100px] py-[50px] ">
-        <div className="md:flex max-w-[531px] w-full lg:mb-0 mb-[15rem] hidden  ">
+      <div className="lg:flex-nowrap flex-wrap  flex justify-center  px-[4%]  md:py-[80px] py-[50px] ">
+        <div className="lg:flex max-w-[531px] w-full lg:mb-0 mb-[15rem] hidden  ">
           <div className="">
             <ReviewCard
               src={ProfilePhoto1}
@@ -32,9 +32,9 @@ const Guide = () => {
         <div className="flex flex-col w-full max-w-[612px] gap-10 order-[-1] lg:order-1">
           <MainTitle
             title="To be a thought leader, your voice needs to be heard"
-            className="text-[28.88px] lg:text-4xl font-bold leading-[35.81px] lg:[44.64px]"
+            className="text-[28.88px] lg:text-3xl font-bold leading-[35.81px] lg:[50.64px]"
           />
-          <div className="lg:text-[18px] font-normal flex flex-col gap-8 lg:leading-6 leading-[19.25px] text-[14.44px] opacity-1">
+          <div className="lg:text-[18px] font-normal flex flex-col gap-8 lg:leading-8 leading-[24.25px] text-[14.44px] opacity-1">
             <Content
               title="Do you spend hours crafting insightful content on LinkedIn, only to be met with crickets? Does your profile blend in with the endless stream of posts, leaving your ideal clients oblivious to the valuable expertise you offer? "
               className=""
@@ -46,10 +46,10 @@ const Guide = () => {
 
             <Content
               title="The Thought Leader Accelerator™ is your fast-track to achieving exactly that."
-              className=" font-bold lg:text-2xl text-xl"
+              className=" font-bold"
             />
           </div>
-          <div className="flex gap-3 lg:mt-16 mt-10   justify-center items-center scale-75 md:scale-100">
+          <div className="flex gap-3 lg:mt-16 mt-4 justify-center items-center scale-75 md:scale-100">
             <FullBtn label="Book Free Call Now" />
             <Link to="/pricing">
               <TransparentBtn

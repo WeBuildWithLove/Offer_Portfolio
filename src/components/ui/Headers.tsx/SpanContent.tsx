@@ -8,7 +8,7 @@ interface SpanParagraphProps {
 const SpanContent: FC<SpanParagraphProps> = ({ children, className }) => {
   return (
     <div
-      className={`${className} text-lg font-normal leading-9 max-w-[507px] flex flex-col gap-4`}
+      className={`${className} md:text-lg text-[13px] font-normal md:leading-9 leading-[27.33px] max-w-[507px] flex flex-col gap-4`}
     >
       {children}
     </div>

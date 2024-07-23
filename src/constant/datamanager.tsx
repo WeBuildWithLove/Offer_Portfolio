@@ -156,15 +156,15 @@ export const priceListData = [
     list: "Craft a clear & concise Headline that screams authority and value.",
   },
   {
-    list: "Create a visually captivating & relevant Banner ",
+    list: "Create a visually captivating and relevant banner. ",
   },
   {
-    list: "Use a high-quality headshot that exudes confidence and trustworthiness.",
+    list: "Use a high-quality headshot that exudes confidence & trustworthiness.",
   },
   {
-    list: "Featured Section that houses your Offers with irresistible call to actions that directs visitors to check them out. e.g like scheduling a Consultation, grabbing your Premium Offer or downloading a Lead Magnet. ",
+    list: "Featured Section that houses your Offers with irresistible call to actions that directs visitors to check them out.",
   },
   {
-    list: "About Section that describes your Ideal Clients Pain Point and shows how you help them get the results they desperately need. ",
+    list: "About Section that describes your Ideal Clients Pain Point & shows how you help them get results they desperately need.",
   },
 ];
