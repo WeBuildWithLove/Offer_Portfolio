@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center pt-10 lg:px-[8%] px-[4%] w-full">
-      <div className="flex items-center gap-2">
+      <div className="flex items-center">
         <img src={Logo} alt="logo as photo" className="max-w-[100px]" />
         <div className="flex flex-col">
           <h5 className="text-sm lg:text-xl font-bold m-0">Daniel Araromi</h5>
@@ -60,7 +60,7 @@ const Navbar = () => {
             />
           </SheetTrigger>
           <SheetContent
-            side="top"
+            side="left"
             className="pt-16 flex flex-col gap-12 bg-[#0B0F2B]"
           >
             {navLinks.map((item, index) => (

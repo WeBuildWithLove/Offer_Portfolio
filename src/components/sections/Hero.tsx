@@ -1,7 +1,7 @@
 import Content from "../ui/Headers.tsx/Content";
 import MainTitle from "../ui/Headers.tsx/MainTitle";
 import ProfilePhoto1 from "../../assets/Photo1.svg";
-// import ProfilePhoto2 from "../../assets/Photo2.svg";
+import ProfilePhoto2 from "../../assets/Photo2.jpeg";
 import ImageCard from "../ui/cards/ImageCard";
 import FullBtn from "../ui/btns/FullBtn";
 import TransparentBtn from "../ui/btns/TransparentBtn";
@@ -30,7 +30,7 @@ const Hero = () => {
 
           <div className=" mt-20 rotate-[16.86deg] ">
             <ImageCard
-              src={ProfilePhoto1}
+              src={ProfilePhoto2}
               className="w-full "
               nickname="The blue guy"
             />

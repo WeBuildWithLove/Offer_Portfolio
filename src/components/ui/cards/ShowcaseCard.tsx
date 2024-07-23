@@ -1,4 +1,4 @@
-import Content from "../Headers.tsx/Content";
+// import Content from "../Headers.tsx/Content";
 import { showcaseData } from "../../../constant/datamanager";
 
 const ShowcaseCard = () => {
@@ -16,10 +16,10 @@ const ShowcaseCard = () => {
                 alt="Banner image showcase"
                 className="w-full h-full object-cover"
               />
-              <Content
+              {/* <Content
                 title={item.description}
                 className="text-base leading-6 font-normal py-10"
-              />
+              /> */}
             </div>
           </div>
         ))}

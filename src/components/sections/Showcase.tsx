@@ -7,7 +7,7 @@ import MainTitle from "../ui/Headers.tsx/MainTitle";
 
 const Showcase = () => {
   return (
-    <section className="w-full px-[5%] py-[6rem]">
+    <section className="w-full px-[5%] py-[4rem]">
       <div className="flex flex-col gap-7 text-center max-w-[1150px] items-center justify-center mx-auto mt-6 lg:mt-0">
         <MainTitle
           title="To become a thought leader faster, you need to look like one."
@@ -37,7 +37,7 @@ const Showcase = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full mt-16">
         <ShowcaseCard />
       </div>
     </section>

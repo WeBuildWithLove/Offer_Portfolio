@@ -20,7 +20,13 @@ const Footer = () => {
           >
             <Linkedin size={28.4} />
           </a>
-          <Instagram size={28.4} />
+          <a
+            href="https://www.instagram.com/real_daniel_araromi?igsh=MXFqejd3bGo4bWEyMQ%3D%3D&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Instagram size={28.4} />
+          </a>
           <Facebook size={28.4} />
         </div>
       </div>

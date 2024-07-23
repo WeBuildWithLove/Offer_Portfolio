@@ -101,12 +101,12 @@ export const showcaseData = [
       "The goal of this banner is to communicate a desire for success ( More $$$$) and that Damilola can help bussiness solved one their greatest problem which is sales and just that but faster",
   },
   {
-    src: Showcase5,
+    src: Showcase6,
     description:
       "The goal of this banner is to communicate a desire for success ( More $$$$) and that Damilola can help bussiness solved one their greatest problem which is sales and just that but faster",
   },
   {
-    src: Showcase6,
+    src: Showcase5,
     description:
       "The goal of this banner is to communicate a desire for success ( More $$$$) and that Damilola can help bussiness solved one their greatest problem which is sales and just that but faster",
   },
