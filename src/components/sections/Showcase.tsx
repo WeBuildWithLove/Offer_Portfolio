@@ -1,6 +1,3 @@
-import { Link } from "react-router-dom";
-import FullBtn from "../ui/btns/FullBtn";
-import TransparentBtn from "../ui/btns/TransparentBtn";
 import ShowcaseCard from "../ui/cards/ShowcaseCard";
 import Content from "../ui/Headers.tsx/Content";
 import MainTitle from "../ui/Headers.tsx/MainTitle";
