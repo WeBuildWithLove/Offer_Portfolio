@@ -4,7 +4,8 @@ import Logo from "../../assets/Logo.png";
 import Menu from "../../assets/Menu.svg";
 import { navLinks } from "../../constant/navigation";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "../ui/sheet";
-import SmallBtn from "../ui/btns/SmallBtn";
+import FullBtn from "../ui/btns/FullBtn";
+import { Button } from "../ui/button";
 
 const Navbar = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
@@ -42,17 +43,17 @@ const Navbar = () => {
             </Link>
           </ul>
         ))}
-        {/* <a
+        <a
           href="https://calendly.com/hisexcellencynaija/thoughtleaderacc"
           target="_blank"
           rel="noopener noreferrer"
-          className=" flex flex-col justify-center items-center"
-        > */}
-        <SmallBtn
-          label="Book Now"
-          className="text-[16.96px] font-medium cursor-pointer hover:to-color-end/80 w-[150px]"
-        />
-        {/* </a> */}
+          className="  "
+        >
+          {" "}
+          <Button className="text-[16.96px] font-medium cursor-pointer hover:to-color-end/80 w-[150px] rounded-full">
+            Book Now
+          </Button>
+        </a>
       </div>
       <div className="flex lg:hidden items-center justify-center">
         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
@@ -85,10 +86,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <SmallBtn
-                  label="Book Now"
-                  className="text-[16.96px] font-medium cursor-pointer hover:to-color-end/80 w-full"
-                />
+                <FullBtn label="Book Free Call Now" className="" />
               </a>
             </div>
           </SheetContent>
