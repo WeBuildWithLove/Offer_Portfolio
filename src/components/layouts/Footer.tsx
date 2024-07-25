@@ -10,7 +10,7 @@ const Footer = () => {
           title="Ready to grow your personal brand?"
           className="lg:text-[45px] lg:leading-[64px]  leading-[44px] font-semibold text-[30px] text-center"
         />
-        <FullBtn label="Book Free Call Now" />
+        <FullBtn label="Book a Free Call Now" />
         <div className="flex gap-8">
           {" "}
           <a

@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="flex justify-between items-center pt-10 lg:px-[8%] px-[4%] w-full">
+    <nav className="flex justify-between items-center pt-10 lg:px-[8%] px-[4%] w-full ">
       <div className="flex items-center">
         <img src={Logo} alt="logo as photo" className="max-w-[100px]" />
         <div className="flex flex-col">
