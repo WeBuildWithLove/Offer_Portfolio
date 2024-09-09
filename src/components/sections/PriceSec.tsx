@@ -180,36 +180,18 @@ const PriceSec: React.FC = () => {
               <PricingCard title="Your Investment">
                 <SpanContent className="px-4 pb-6">
                   <p>
-                    Starting your journey to Thought Leadership is simple and
-                    affordable. The total package costs just
-                    <span className="font-semibold"> $275</span>. Choose the
-                    payment option that suits you best:
+                    The value is in the transformation, not the price. Every
+                    package is customized to your unique needs, goals, and
+                    business vision Let’s discuss how we can help you stand out
+                    and make an impact.
                   </p>
-                  <ul className="list-disc list-inside">
-                    <li>Option 1: Split Payment</li>
-                    <ul>
-                      <li>
-                        Pay <span className="font-semibold">$175</span> upfront
-                        to get us started on building your dream brand.
-                      </li>
-                      <li>
-                        Pay the remaining{" "}
-                        <span className="font-semibold">$100</span> once you are
-                        satisfied with the result.
-                      </li>
-                    </ul>
-                    <li>Option 2: Full Payment Discount</li>
-                    <ul>
-                      <li>
-                        Pay the full amount upfront and enjoy a{" "}
-                        <span className="font-semibold">$35</span> discount.
-                      </li>
-                      <li>
-                        Total upfront payment:{" "}
-                        <span className="font-semibold">$240</span>.
-                      </li>
-                    </ul>
-                  </ul>
+                  <p>
+                    To discover how we can help position you as an authority,
+                    let’s start with a conversation.
+                  </p>
+                  <p className="text-[19px] font-semibold py-2">
+                    Ready to get started?
+                  </p>
                 </SpanContent>
                 <FullBtn
                   label="Book a Free Call"
