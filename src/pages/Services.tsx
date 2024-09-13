@@ -1,10 +1,10 @@
 import AccordionSec from "../components/layouts/AccordionSec";
-import PriceSec from "../components/sections/PriceSec";
+import ServiceSec from "../components/sections/ServiceSec";
 
-const Pricing = () => {
+const Services = () => {
   return (
     <main className=" font-Poppins overflow-clip">
-      <PriceSec />
+      <ServiceSec />
       <div className=" translate-y-[-80px]">
         <AccordionSec />
       </div>
@@ -12,4 +12,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Services;

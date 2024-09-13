@@ -4,7 +4,7 @@ import LoadingOverlay from "./components/ui/LoadingOverlay";
 import Footer from "./components/layouts/Footer";
 import Navbar from "./components/layouts/Navbar";
 import { LazyWithDelay } from "./lib/utils";
-import Pricing from "./pages/Pricing";
+import Services from "./pages/Services";
 
 const Landing = LazyWithDelay(() => import("./pages/Landing"), 3000);
 
@@ -15,9 +15,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/service" element={<Services />} />
         </Routes>
-        {/* <AccordionSec /> */}
         <Footer />
       </Suspense>
     </BrowserRouter>

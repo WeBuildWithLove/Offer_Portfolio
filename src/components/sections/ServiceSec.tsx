@@ -42,13 +42,13 @@ const PhaseContent: React.FC<PhaseContentProps> = ({
   </div>
 );
 
-const PriceSec: React.FC = () => {
+const ServiceSec: React.FC = () => {
   return (
     <section className="max-w-full  md:py-[6rem] py-[4rem] lg:px-[8%] px-[4%]">
       <div className="flex flex-col gap-10 text-center items-center justify-center mx-auto">
         <div>
           <TransparentBtn
-            label="Pricing"
+            label="Services"
             className="w-[239px] border-blue-color text-blue-color h-[52px] cursor-default"
           />
           <MainTitle
@@ -182,8 +182,8 @@ const PriceSec: React.FC = () => {
                   <p>
                     The value is in the transformation, not the price. Every
                     package is customized to your unique needs, goals, and
-                    business vision Let’s discuss how we can help you stand out
-                    and make an impact.
+                    business vision. We want to help you stand out and make an
+                    impact.
                   </p>
                   <p>
                     To discover how we can help position you as an authority,
@@ -213,4 +213,4 @@ const PriceSec: React.FC = () => {
   );
 };
 
-export default PriceSec;
+export default ServiceSec;
