@@ -6,7 +6,7 @@ import Navbar from "./components/layouts/Navbar";
 import { LazyWithDelay } from "./lib/utils";
 import Services from "./pages/Services";
 
-const Landing = LazyWithDelay(() => import("./pages/Landing"), 3000);
+const Landing = LazyWithDelay(() => import("./pages/Landing"), 5000);
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/service" element={<Services />} />
+          <Route path="/myoffer" element={<Services />} />
         </Routes>
         <Footer />
       </Suspense>

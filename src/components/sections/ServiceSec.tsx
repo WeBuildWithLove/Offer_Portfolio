@@ -11,6 +11,7 @@ import ArrowUp from "../../assets/ArrowUp.svg";
 import FullBtn from "../ui/btns/FullBtn";
 import SpanContent from "../ui/Headers.tsx/SpanContent";
 import Content from "../ui/Headers.tsx/Content";
+import ListTwo from "../ui/Headers.tsx/ListTwo";
 
 interface PhaseContentProps {
   phase: string;
@@ -46,17 +47,17 @@ const ServiceSec: React.FC = () => {
   return (
     <section className="max-w-full  md:py-[6rem] py-[4rem] lg:px-[8%] px-[4%]">
       <div className="flex flex-col gap-10 text-center items-center justify-center mx-auto">
-        <div>
+        <div className="max-w-[825px]">
           <TransparentBtn
             label="Services"
             className="w-[239px] border-blue-color text-blue-color h-[52px] cursor-default"
           />
           <MainTitle
-            title="The Thought Leader Accelerator™"
+            title="Here is How We will Get you Oversubscribed in 90 Days"
             className="text-[25px] leading-[31px] lg:leading-normal lg:text-[45px] font-semibold py-5 lg:py-2"
           />
           <Content
-            title="makes this dream a reality through a proven 3-phase system:"
+            title="We will be working together for the next 12 weeks, here are the different phases we will work through to create a Quality and Oversubscribed Brand for you."
             className="lg:text-lg text-base"
           />
         </div>
@@ -65,20 +66,17 @@ const ServiceSec: React.FC = () => {
             <PhaseContent
               phase="Phase 1"
               title="Understanding your UVP & USP"
-              subtitle="This core phase is crucial. We'll help you identify your unique value proposition (UVP), what makes you different and irreplaceable, and craft a compelling unique selling proposition (USP) that resonates with your ideal clients."
-              className="pb-16"
+              subtitle="This initial phase is crucial. We will."
+              className=""
             >
-              {/* <FullBtn
-                label="Book a call"
-                className="lg:my-14 my-8 flex flex-col justify-center items-center mx-auto"
-              /> */}
+              <ListTwo />
             </PhaseContent>
 
             <div className="md:block flex-1 flex-grow hidden">
               <PhaseContent
                 phase="Phase 3"
-                title="Content Strategy Mastery"
-                subtitle="It's not just about what you say, it's about how you say it. The Thought Leader Accelerator helps you develop a personalized content strategy based on your unique positioning and stories."
+                title=" Content Strategy & Collaterals"
+                subtitle="Top notch content is not just only about what you say, but How you say it and the medium you use to pass it across is even more important. So I will develop a personalized content strategy based on your unique positioning and stories and create collaterals for you to make your content premium and ensure you get the results you want from them.."
                 className="pb-[100px]"
               >
                 <SpanContent className="px-4">
@@ -89,14 +87,14 @@ const ServiceSec: React.FC = () => {
                     <span className="font-semibold">
                       Unearthing Your Story Bank:
                     </span>{" "}
-                    We'll guide you through exercises to uncover your personal
+                    I will guide you through exercises to uncover your personal
                     and professional stories that resonate with your audience.
                   </p>
                   <p>
                     <span className="font-semibold">
                       Aligning Content with USP:
                     </span>{" "}
-                    We'll help you identify content themes and topics directly
+                    I will help you identify content themes and topics directly
                     tied to your unique selling proposition.
                   </p>
                   <p>
@@ -106,6 +104,15 @@ const ServiceSec: React.FC = () => {
                     You'll learn storytelling techniques and content formats
                     that captivate your ideal clients and establish you as a
                     thought leader.
+                  </p>
+                  <p>
+                    <span className="font-semibold">
+                      Create Templated Collaterals:
+                    </span>{" "}
+                    I will create, visually appealing Carousel, Cheat Sheets and
+                    One Pager Templates we can use to put out content for you
+                    which will attract and keep the attention of your Target
+                    Audience and help to convert them.
                   </p>
                 </SpanContent>
                 {/* <FullBtn
@@ -128,8 +135,8 @@ const ServiceSec: React.FC = () => {
 
               <PhaseContent
                 phase="Phase 2"
-                title="Power Profile Optimization"
-                subtitle="With your UVP and USP in hand, we'll transform your profile into a client magnet. We will:"
+                title=" Complete Rebranding across all Channels"
+                subtitle="With your UVP and USP in hand, the next step is to transform your Brand & Linkedin Profile into a Client Magnet. "
               >
                 <List />
                 {/* <FullBtn

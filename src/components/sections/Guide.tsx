@@ -31,7 +31,7 @@ const Guide = () => {
 
         <div className="flex flex-col w-full max-w-[612px] gap-10 order-[-1] lg:order-1">
           <MainTitle
-            title="To be a thought leader, your voice needs to be heard"
+            title="To become Oversubscribed, your voice needs to be heard"
             className="text-[28.88px] lg:text-3xl font-bold leading-[35.81px] lg:[50.64px]"
           />
           <div className="lg:text-[18px] font-normal flex flex-col gap-8 lg:leading-8 leading-[24.25px] text-[14.44px] opacity-1">
@@ -45,7 +45,7 @@ const Guide = () => {
             />
 
             <Content
-              title="The Thought Leader Accelerator™ is your fast-track to achieving exactly that."
+              title="The Oversubscribed in 90 Days™ is your fast-track to achieving exactly that."
               className=" font-bold"
             />
           </div>

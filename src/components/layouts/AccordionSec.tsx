@@ -12,7 +12,7 @@ const AccordionSec = () => {
     <section className="max-w-full px-[5%] lg:py-[8rem] py-[6rem]">
       <div className="flex flex-col gap-5 text-center ">
         <MainTitle
-          title="FAQ"
+          title="Frequently asked Questions "
           className=" text-[30px] lg:text-[45px] font-medium"
         />
         <Accordion

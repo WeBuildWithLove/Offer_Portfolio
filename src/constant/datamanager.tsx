@@ -115,36 +115,31 @@ export const showcaseData = [
 export const accordionData = [
   {
     id: "1",
-    question: " How does the program work? ",
+    question: "How does the program work? ",
     answer:
-      "It's a 3-week program. First week, we craft your USP and UVP. Second week, we work on your profile, and the third week, we work on your content strategy",
+      "It's a 3-month program. With 3 different phases to ensure we touch down on every important aspect of your Brand.",
   },
   {
     id: "2",
-    question: " How are Sessions going to be like? ",
+    question: "Is this all I need to have a Quality Brand?",
     answer:
-      "We will be having 2 calls during the first and the last week but we would work based on your",
+      "No! You will need to also post content and deliver results to your Clients so we can have more things to use to showcase your expertise to your Audience.",
   },
   {
     id: "3",
-    question: "Is this all I need to be a Thought Leader? ",
+    question: "How long does it take to start seeing results?",
     answer:
-      "No! It's just like saying does an immigration officer in the embassy take you to the UK? no, he only gives you the international passport which is the first and most important thing to have if you ever want to travel. This package helps you get the passport to become a thought leader, but we have other packages to help you sustain it in the long run ",
+      "There is no exact timeframe to seeing results you want, everyone's journey is unique but it also depends on how fast you implement from your own end.",
   },
   {
     id: "4",
-    question: " How long does it take to become a thought leader? ",
-    answer:
-      "There is no exact timeframe to become a thought leader but know that with this program, you would go faster.",
-  },
-  {
-    id: "5",
-    question: " What if I don't get what I want? ",
+    question: "What if I don't get what I want? ",
     answer:
       "That's easy, just let me know, we wouldn't stop working together until you are satisfied.",
   },
+
   {
-    id: "6",
+    id: "5",
     question: "Is this a Coaching a Program",
     answer:
       "No it's not, it's a Done for You service to help you start getting the results you want.",
@@ -152,6 +147,9 @@ export const accordionData = [
 ];
 
 export const priceListData = [
+  {
+    list: "We will create a Brand Style Guide for you that we will use to make your branding congruent across every platform and channel to ensure consistency and professionalism.",
+  },
   {
     list: "Craft a clear & concise Headline that screams authority and value.",
   },
@@ -165,6 +163,18 @@ export const priceListData = [
     list: "Featured Section that houses your Offers with irresistible call to actions that directs visitors to check them out.",
   },
   {
-    list: "About Section that describes your Ideal Clients Pain Point & shows how you help them get results they desperately need.",
+    list: "About Section that describes your Ideal Clients Pain Point & shows how you help them get the results they desperately need.",
+  },
+];
+
+export const priceList2Data = [
+  {
+    list: "Go deeper to identify your unique value proposition (UVP), what makes you different and irreplaceable, and craft a compelling unique selling proposition (USP) that resonates with your ideal clients.",
+  },
+  {
+    list: "Do more research to understand your Target Audience better so that we make your Brand become a magnet for them. ",
+  },
+  {
+    list: " I will take out time to do Competitor Analysis to try and see what your competitors are doing right and also the gaps they are not filling so we can ",
   },
 ];
