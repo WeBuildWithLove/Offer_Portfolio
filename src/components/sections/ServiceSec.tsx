@@ -12,6 +12,7 @@ import FullBtn from "../ui/btns/FullBtn";
 import SpanContent from "../ui/Headers.tsx/SpanContent";
 import Content from "../ui/Headers.tsx/Content";
 import ListTwo from "../ui/Headers.tsx/ListTwo";
+// import ListThree from "../ui/Headers.tsx/ListThree";
 
 interface PhaseContentProps {
   phase: string;
@@ -77,7 +78,7 @@ const ServiceSec: React.FC = () => {
                 phase="Phase 3"
                 title=" Content Strategy & Collaterals"
                 subtitle="Top notch content is not just only about what you say, but How you say it and the medium you use to pass it across is even more important. So I will develop a personalized content strategy based on your unique positioning and stories and create collaterals for you to make your content premium and ensure you get the results you want from them.."
-                className="pb-[100px]"
+                className="pb-3"
               >
                 <SpanContent className="px-4">
                   <p className="text-[19px] font-semibold py-2">
@@ -115,10 +116,6 @@ const ServiceSec: React.FC = () => {
                     Audience and help to convert them.
                   </p>
                 </SpanContent>
-                {/* <FullBtn
-                  label="Book a call"
-                  className="w-[257px] lg:my-14 my-8 flex flex-col justify-center items-center mx-auto"
-                /> */}
               </PhaseContent>
             </div>
           </div>
@@ -139,10 +136,6 @@ const ServiceSec: React.FC = () => {
                 subtitle="With your UVP and USP in hand, the next step is to transform your Brand & Linkedin Profile into a Client Magnet. "
               >
                 <List />
-                {/* <FullBtn
-                  label="Book a call"
-                  className="w-[257px] lg:my-8 my-6 flex flex-col justify-center items-center mx-auto"
-                /> */}
               </PhaseContent>
             </div>
 
@@ -151,7 +144,7 @@ const ServiceSec: React.FC = () => {
                 phase="Phase 3"
                 title="Content Strategy Mastery"
                 subtitle="It's not just about what you say, it's about how you say it. The Thought Leader Accelerator helps you develop a personalized content strategy based on your unique positioning and stories."
-                className="pb-16"
+                className=""
               >
                 <SpanContent className="px-4">
                   <p className="text-[19px] font-semibold py-2">
@@ -184,17 +177,22 @@ const ServiceSec: React.FC = () => {
             </div>
 
             <div className="flex-1 md:mt-0 mt-16">
-              <PricingCard title="Your Investment">
+              <PricingCard title="The Irresistible Transformation">
+                {/* <ListThree /> */}
                 <SpanContent className="px-4 pb-6">
                   <p>
-                    The value is in the transformation, not the price. Every
-                    package is customized to your unique needs, goals, and
-                    business vision. We want to help you stand out and make an
-                    impact.
+                    We don't just want to help you get more likes and comments.
+                    We want to help you manifest your Dream Brand and
+                    continuously sell out your Offer.
                   </p>
                   <p>
-                    To discover how we can help position you as an authority,
-                    let’s start with a conversation.
+                    With a Quality Brand, with a Quality Profile and an
+                    Effective Content Strategy
+                  </p>
+                  <p>
+                    You'll transform from a hidden gem to a recognized Thought
+                    Leader getting all the acknowledgment in your Industry and
+                    get the High-paying clients you deserve.
                   </p>
                   <p className="text-[19px] font-semibold py-2">
                     Ready to get started?

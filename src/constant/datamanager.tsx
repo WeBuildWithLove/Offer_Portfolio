@@ -178,3 +178,17 @@ export const priceList2Data = [
     list: " I will take out time to do Competitor Analysis to try and see what your competitors are doing right and also the gaps they are not filling so we can ",
   },
 ];
+export const priceList3Data = [
+  {
+    list: "Attract your ideal Audience: Your content speaks directly to their challenges and desires.",
+  },
+  {
+    list: " Build trust, credibility and Community: Your stories demonstrate your expertise and passion which will make your Audience respect, love and be loyal to you.",
+  },
+  {
+    list: " Drive engagement and action: Compelling content prompts interaction and makes your Ideal Clients take action on your Offers. ",
+  },
+  {
+    list: "Become Oversubscribed: Have Lists of people waiting patiently for your Offers and battling to get your Offers whenever you launch them. ",
+  },
+];
