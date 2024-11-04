@@ -8,7 +8,7 @@ const Showcase = () => {
     <section className="w-full px-[5%] py-[4rem]">
       <div className="flex flex-col gap-7 text-center max-w-[1150px] items-center justify-center mx-auto mt-6 lg:mt-0">
         <MainTitle
-          title="To become Oversubscribed through your branding.."
+          title="To become Oversubscribed"
           className=" lg:text-3xl text-[28.88px] leading-[35.81px] lg:[50.64px] font-bold"
         />
         <div className="lg:text-lg font-normal text-[14.44px]  lg:leading-8 leading-[24.25px] flex flex-col gap-7 justify-center">

@@ -3,7 +3,13 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/Logo.png";
 import Menu from "../../assets/Menu.svg";
 import { navLinks } from "../../constant/navigation";
-import { Sheet, SheetClose, SheetContent, SheetTrigger } from "../ui/sheet";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from "../ui/sheet";
 import FullBtn from "../ui/btns/FullBtn";
 import { Button } from "../ui/button";
 
@@ -74,20 +80,18 @@ const Navbar = () => {
             {navLinks.map((item, index) => (
               <ul key={index} className="py-2">
                 <SheetClose asChild>
-                  <Link to={item.href} className="flex gap-5">
-                    <li className="text-[15.69px] font-normal">{item.name}</li>
-                  </Link>
+                  <SheetTitle>
+                    <Link to={item.href} className="flex gap-5">
+                      <li className="text-[15.69px] font-normal">
+                        {item.name}
+                      </li>
+                    </Link>
+                  </SheetTitle>
                 </SheetClose>
               </ul>
             ))}
             <div className="pt-4">
-              <a
-                href="https://calendly.com/hisexcellencynaija/thoughtleaderacc"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FullBtn label="Book a Free Call Now" className="" />
-              </a>
+              <FullBtn label="Book a Free Call Now" className="" />
             </div>
           </SheetContent>
         </Sheet>
