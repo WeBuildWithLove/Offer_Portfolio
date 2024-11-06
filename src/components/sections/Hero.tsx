@@ -9,6 +9,7 @@ import TransparentBtn from "../ui/btns/TransparentBtn";
 const Hero = () => {
   return (
     <section className="max-w-full md:py-[6rem] py-8 lg:px-[8%] px-[5%]  ">
+      <h1>TESTING</h1>
       <div className="flex justify-center items-center md:flex-nowrap flex-wrap lg:gap-20 gap-8">
         <div className="flex flex-col max-w-[600px] gap-6">
           <TransparentBtn
