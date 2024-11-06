@@ -16,24 +16,7 @@ const Showcase = () => {
             title="Your brand needs to be built on Expertise, Professionalism, Exquisiteness, Authority. First, we'll go deep into your Branding foundations and set up the 4 pillars for you, Secondly, we'll create a content strategy for you that ensures the message you communicate with visuals aligns with your Target audience by doing these, Thirdly, I will ensure you get Quality Branding and continually produce Quality Work for you. See more about how we can work together"
             className=""
           />
-          {/* <Content
-            title="Imagine dream clients reach out to you, ready to invest in your premium services because they see you as the go-to expert in your niche."
-            className=""
-          /> */}
-          {/* <Content
-            title="The Thought Leader Accelerator™ is your fast-track to achieving exactly that."
-            className=" font-bold "
-          /> */}
         </div>
-        {/* <div className="flex lg:gap-3 gap-1 scale-75 md:scale-100">
-          <FullBtn label="Book Free Call Now" />
-          <Link to="/pricing">
-            <TransparentBtn
-              label="See Price"
-              className="text-white text-lg font-medium border-[#0D7297] md:w-[208px] py-7 w-[161px]"
-            />
-          </Link>
-        </div> */}
       </div>
 
       <div className="w-full mt-16 flex flex-col justify-center items-center">

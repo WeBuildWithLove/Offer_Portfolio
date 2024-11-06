@@ -6,12 +6,12 @@ import ProfilePhoto5 from "../assets/Profile5.jpg";
 import ProfilePhoto6 from "../assets/Profile6.jpg";
 import ProfilePhoto7 from "../assets/Profile7.jpg";
 import ProfilePhoto8 from "../assets/Profile8.jpg";
-import Showcase1 from "../assets/Showcase1.jpg";
-import Showcase2 from "../assets/Showcase2.jpg";
-import Showcase3 from "../assets/Showcase3.jpg";
-import Showcase4 from "../assets/Showcase4.jpg";
-import Showcase5 from "../assets/Showcase5.jpg";
-import Showcase6 from "../assets/Showcase6.jpg";
+import Showcase1 from "../assets/showcase1.png";
+import Showcase2 from "../assets/showcase2.png";
+import Showcase3 from "../assets/showcase3.png";
+import Showcase4 from "../assets/showcase4.png";
+import Showcase5 from "../assets/showcase5.png";
+import Showcase6 from "../assets/showcase6.png";
 
 export const reviewData = [
   {

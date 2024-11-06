@@ -1,10 +1,11 @@
 import { Instagram, Linkedin, Mail, PhoneCall } from "lucide-react";
 import FullBtn from "../ui/btns/FullBtn";
 import MainTitle from "../ui/Headers.tsx/MainTitle";
+import LetsCr8T from "../../assets/letscr8t.svg";
 
 const Footer = () => {
   return (
-    <footer className="max-w-full px-[5%] pb-[8rem]">
+    <footer className="max-w-full px-[5%] pb-[8rem] ">
       <div className="flex flex-col gap-8 text-center items-center justify-center mx-auto  max-w-[650px]">
         <MainTitle
           title="Ready to grow your personal brand?"
@@ -35,6 +36,16 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <a
+        href="https://www.letscr8t.xyz"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="flex gap-1 items-end justify-center mt-16 bg-white p-2 w-[300px] rounded-xl mx-auto">
+          <p className="text-black">Built by</p>
+          <img src={LetsCr8T} alt="LetsCr8T" className="" />
+        </div>
+      </a>
     </footer>
   );
 };
