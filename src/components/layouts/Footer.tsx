@@ -36,16 +36,17 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <a
-        href="https://www.letscr8t.xyz"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div className="flex gap-1 items-end justify-center mt-16 bg-white p-2 w-[300px] rounded-xl mx-auto">
-          <p className="text-black">Built by</p>
+
+      <div className="flex justify-center items-center gap-2 mt-10 mx-auto ">
+        <p className="pt-4">Built by</p>
+        <a
+          href="https://www.letscr8t.xyz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={LetsCr8T} alt="LetsCr8T" className="" />
-        </div>
-      </a>
+        </a>
+      </div>
     </footer>
   );
 };
